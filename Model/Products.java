@@ -5,9 +5,9 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 public class Products {
-    private ObservableList<Parts> productPartsList = FXCollections.observableArrayList();
+   
 
-    static ObservableList<Parts> associatedPartList = FXCollections.observableArrayList();
+    private ObservableList<Parts> associatedPartList = FXCollections.observableArrayList();
     private int productID, stock, min, max;
     private String name;
     private double productPrice;
